@@ -13,7 +13,16 @@ numCount = 100
 
 def play_fizz_buzz():
     for i in range(1, numCount+1):
-        print(i)
+        #just gonna try 3 if statements first
+
+        if i%3 == 0 and i%5 != 0:
+            print("fizz")
+        elif i%3 != 0 and i%5 == 0:
+            print("buzz")
+        elif i%3 == 0 and i%5 == 0:
+            print("fizzbuzz!")
+        else:
+            print(i)
 
 
 play_fizz_buzz()
