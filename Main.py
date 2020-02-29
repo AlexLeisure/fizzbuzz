@@ -8,3 +8,12 @@
 # When the number is divisible by both
 # 3 AND 5, they will both say "fizzbuzz"
 
+numCount = 100
+
+
+def play_fizz_buzz():
+    for i in range(1, numCount):
+        print(i)
+
+
+play_fizz_buzz()
