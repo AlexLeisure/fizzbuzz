@@ -12,7 +12,7 @@ numCount = 100
 
 
 def play_fizz_buzz():
-    for i in range(1, numCount):
+    for i in range(1, numCount+1):
         print(i)
 
 
