@@ -12,6 +12,9 @@ numCount = 100
 
 
 def play_fizz_buzz():
+    # An important part of software development is thinking about what will change over time,
+    # and designing code so that it's easy to change when that time comes. This solution
+    # makes changing the intervals for fizz and buzz very easy and also reduces repetition.
     for i in range(1, numCount+1):
         output = ""
         if i%3 == 0:
